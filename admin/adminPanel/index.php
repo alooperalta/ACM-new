@@ -206,6 +206,9 @@
                         case 'Utkrisht':
                             include('./faqadmin/utkrisht/table.php');
                             break;
+                        case 'Newsletter':
+                            include('./faqadmin/newsletter.php');
+                            break;
                         case 'uploadExcel':
                             include('./faqadmin/utkrisht/adminbulkadd.php');
                             break;

@@ -160,7 +160,14 @@
                     <span>Qr Code</span></a>
             </li>
 
-           
+            <!-- Newsletter -->
+            <hr class="sidebar-divider">
+            <li class="nav-item">
+                <a class="nav-link" href="?table=Newsletter">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Newsletter</span></a>
+            </li>
+
             <hr class="sidebar-divider">
             <li class="nav-item">
                 <a class="nav-link" href="?table=joinus">
