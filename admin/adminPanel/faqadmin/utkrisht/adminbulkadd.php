@@ -55,6 +55,7 @@ use Shuchkin\SimpleXLSX;
         }
 
     </style>
+    
     </head>
     <body>
     <div class="wrapper">
@@ -65,10 +66,12 @@ use Shuchkin\SimpleXLSX;
                         <h2>Create Certificate in Bulk</h2>
                     </div>
         <form action = "#" method = "POST" enctype="multipart/form-data">
-            <input type = "file" name = "excel">
-            <br>
-            <!-- <input type = "button" class="btn btn-success btn-md pull-left" name = "" value="Sample "> -->
+            <input type = "file" name = "excel"><br>
+            
             <input type = "submit" class="btn btn-primary btn-md pull-right" name = "submit">
+
+            <a href="" download="utkrisht_sample.xlsx" class="btn btn-success btn-md pull-left">Download as Excel file</a>
+
 
         </form>
         </div>
